@@ -24,7 +24,7 @@ importers:
       isbot: ^3.6.5
       react: ^18.2.0
       react-dom: ^18.2.0
-      shared-ui: workspace:^1.0.0
+      shared-ui: workspace:*
       typescript: ^4.8.4
     dependencies:
       '@remix-run/node': 1.12.0
@@ -41,6 +41,9 @@ importers:
       '@types/react-dom': 18.0.10
       eslint: 8.33.0
       typescript: 4.9.5
+
+  packages/my-custom-features:
+    specifiers: {}
 
   packages/shared-ui:
     specifiers:
